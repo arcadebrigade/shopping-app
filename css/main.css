@@ -61,6 +61,7 @@ button {
 	height: 29px;
 	border: 1px solid #A0A0A6;
 	background-color: #FFFFFF;
+	color: #A0A0A6;
 	box-shadow: none;
 	border-radius: none;
 	outline: 0;
@@ -68,17 +69,7 @@ button {
 button:hover {
 	background-color: #A0A0A6;
 	border-color: #A0A0A6;
-}
-.main button i {
-	color: #A0A0A6;
-}
-button i:hover {
 	color: #FFFFFF;
-}
-#error {
-	display: none;
-	font-family: 'Khula', sans-serif;
-	color: #BF554F;
 }
 .main li {
 	font-family: 'Khula', sans-serif;
@@ -115,4 +106,7 @@ button i:hover {
 .strike {
 	text-decoration: line-through;
 	color: #BF554F;
+}
+.error::-webkit-input-placeholder {
+   color: red;
 }

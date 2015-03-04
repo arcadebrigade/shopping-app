@@ -110,3 +110,8 @@ button:hover {
 .error::-webkit-input-placeholder {
    color: red;
 }
+.fa-check:before {
+	margin-top: -4px;
+	display: block;
+	margin-left: -2px
+}
